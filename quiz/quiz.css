@@ -37,3 +37,34 @@ body.wrong{
     gap:10px;
     margin: 20px;
 }
+
+.btn{
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: black;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.start-btn,
+.next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
